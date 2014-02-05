@@ -1,24 +1,33 @@
 # Superfight
 
-TODO: Write a gem description
+An implementation of superfight code
+
+This is an example for a class
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'superfight'
+    gem 'superfight', github: 'noahpatterson/superfightGem'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install superfight
-
 ## Usage
 
-TODO: Write usage instructions here
+Simply adds a supefight simulator.
+
+```
+puts 'What is your first fighters name?'
+fighter_a = $stdin.gets
+puts 'what is you second fighters name?'
+fighter_b = $stdin.gets
+
+match = Match.new(Fighter.new(fighter_a), Fighter.new(fighter_b))
+
+puts "The winner of match is .......... #{match.winner.name}"
+```
 
 ## Contributing
 

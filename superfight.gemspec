@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Superfight::VERSION
   spec.authors       = ["noahpatterson"]
   spec.email         = ["noah@noah-patterson.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{An implementation of superfight code}
+  spec.description   = %q{This is a sample for a class}
   spec.homepage      = ""
   spec.license       = "MIT"
 
