@@ -19,6 +19,9 @@ And then execute:
 Simply adds a supefight simulator.
 
 ```
+require 'bundler/setup'
+require 'superfight'
+
 puts 'What is your first fighters name?'
 fighter_a = $stdin.gets
 puts 'what is you second fighters name?'
